@@ -2,7 +2,7 @@
  * Figma Code Connect for CPD Activity Card
  * 
  * This file connects the Figma design to the WordPress block pattern implementation.
- * Design: https://www.figma.com/design/4x7b2gxbPg1xC1fQkOIzvP/Medical-Academic-Design-System?node-id=60-302
+ * Design: https://www.figma.com/design/4x7b2gxbPg1xC1fQkOIzvP/Medical-Academic-Design-System?node-id=60-303
  * 
  * @fileoverview WordPress Block Pattern implementation using Gutenberg blocks
  * @see patterns/card-cpd-activity.php
@@ -30,7 +30,7 @@ import figma from '@figma/code-connect';
  * - Shadow: elevation-1
  */
 figma.connect(
-  'https://www.figma.com/design/4x7b2gxbPg1xC1fQkOIzvP/Medical-Academic-Design-System?node-id=60-302',
+  'https://www.figma.com/design/4x7b2gxbPg1xC1fQkOIzvP/Medical-Academic-Design-System?node-id=60-303',
   {
     example: (props) => (
       `<!-- wp:group {"metadata":{"name":"Card - CPD Activity"},"className":"is-style-cpd-card","layout":{"type":"default"}} -->
