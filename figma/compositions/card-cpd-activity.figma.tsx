@@ -16,7 +16,7 @@ import figma from '@figma/code-connect';
  * A comprehensive card component for displaying CPD (Continuing Professional Development) activities.
  * 
  * Features:
- * - Hero image with badges overlay
+ * - Cover uses post Featured Image with badges overlay
  * - Category link
  * - Activity title
  * - Duration metadata
@@ -35,10 +35,9 @@ figma.connect(
     example: (props) => (
       `<!-- wp:group {"metadata":{"name":"Card - CPD Activity"},"className":"is-style-cpd-card","layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-cpd-card">
-	<!-- wp:cover {"url":"${props.imageUrl || "<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bec715fa5f1c8401fd1e0ab078ef3f0c658d2434.png"}","dimRatio":0,"minHeight":200,"minHeightUnit":"px","contentPosition":"bottom right","isUserOverlayColor":true,"style":{"border":{"radius":{"topLeft":"var:preset|radius|medium","topRight":"var:preset|radius|medium"}},"spacing":{"padding":{"top":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10"}}}} -->
+	<!-- wp:cover {"useFeaturedImage":${props.useFeaturedImage ?? true},"dimRatio":0,"minHeight":200,"minHeightUnit":"px","contentPosition":"bottom right","isUserOverlayColor":true,"style":{"border":{"radius":{"topLeft":"var:preset|radius|medium","topRight":"var:preset|radius|medium"}},"spacing":{"padding":{"top":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10"}}}} -->
 	<div class="wp-block-cover is-position-bottom-right" style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10);min-height:200px;border-top-left-radius:var(--wp--preset--radius--medium);border-top-right-radius:var(--wp--preset--radius--medium)">
 		<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-		<img class="wp-block-cover__image-background" alt="" src="${props.imageUrl || "<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bec715fa5f1c8401fd1e0ab078ef3f0c658d2434.png"}" data-object-fit="cover"/>
 		<div class="wp-block-cover__inner-container">
 			<!-- wp:group {"metadata":{"name":"Badges"},"style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -102,10 +101,13 @@ figma.connect(
 <!-- /wp:group -->`
     ),
     props: {
-      /**
-       * Card image URL
-       */
-      imageUrl: figma.string('Image URL'),
+	/**
+	 * Use the post Featured Image inside the Cover block
+	 */
+	useFeaturedImage: figma.boolean('Use featured image', {
+		true: true,
+		false: false,
+	}),
       
       /**
        * Points badge text (e.g., "2 points")
