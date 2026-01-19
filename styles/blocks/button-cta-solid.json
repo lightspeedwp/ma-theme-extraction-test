@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "CTA Solid",
+  "blockTypes": [
+    "core/button"
+  ],
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--cta-core)",
+      "text": "var(--wp--preset--color--base)"
+    },
+    ":hover": {
+      "color": {
+        "background": "var(--wp--preset--color--cta-dark)",
+        "text": "var(--wp--preset--color--base)"
+      }
+    }
+  }
+}

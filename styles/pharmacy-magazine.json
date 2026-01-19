@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+  "version": 3,
+  "title": "Pharmacy Magazine",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "cta-light",
+          "color": "#FDEDF0",
+          "name": "CTA Light"
+        },
+        {
+          "slug": "cta-core",
+          "color": "#EF1974",
+          "name": "CTA Core"
+        },
+        {
+          "slug": "cta-dark",
+          "color": "#BB0253",
+          "name": "CTA Dark"
+        },
+        {
+          "slug": "brand-light",
+          "color": "#DDF5F6",
+          "name": "Brand Light"
+        },
+        {
+          "slug": "brand-core",
+          "color": "#82DFE4",
+          "name": "Brand Core"
+        },
+        {
+          "slug": "brand-dark",
+          "color": "#6AB8BC",
+          "name": "Brand Dark"
+        },
+        {
+          "slug": "accent-light",
+          "color": "#EAF5DC",
+          "name": "Accent Light"
+        },
+        {
+          "slug": "accent-core",
+          "color": "#FFD200",
+          "name": "Accent Core"
+        },
+        {
+          "slug": "accent-dark",
+          "color": "#E0B900",
+          "name": "Accent Dark"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Rubik, sans-serif",
+          "slug": "heading",
+          "name": "Rubik"
+        },
+        {
+          "fontFamily": "\"Frank Ruhl Libre\", serif",
+          "slug": "body",
+          "name": "Frank Ruhl Libre"
+        }
+      ]
+    }
+  }
+}

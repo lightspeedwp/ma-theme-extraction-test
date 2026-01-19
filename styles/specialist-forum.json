@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+  "version": 3,
+  "title": "Specialist Forum",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "cta-light",
+          "color": "#F3EFF3",
+          "name": "CTA Light"
+        },
+        {
+          "slug": "cta-core",
+          "color": "#6B396F",
+          "name": "CTA Core"
+        },
+        {
+          "slug": "cta-dark",
+          "color": "#552C58",
+          "name": "CTA Dark"
+        },
+        {
+          "slug": "brand-light",
+          "color": "#E1F4FC",
+          "name": "Brand Light"
+        },
+        {
+          "slug": "brand-core",
+          "color": "#00B3DC",
+          "name": "Brand Core"
+        },
+        {
+          "slug": "brand-dark",
+          "color": "#008FB0",
+          "name": "Brand Dark"
+        },
+        {
+          "slug": "accent-light",
+          "color": "#EAF5DC",
+          "name": "Accent Light"
+        },
+        {
+          "slug": "accent-core",
+          "color": "#9ACA3C",
+          "name": "Accent Core"
+        },
+        {
+          "slug": "accent-dark",
+          "color": "#6C8F29",
+          "name": "Accent Dark"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Rubik, sans-serif",
+          "slug": "heading",
+          "name": "Rubik"
+        },
+        {
+          "fontFamily": "\"Frank Ruhl Libre\", serif",
+          "slug": "body",
+          "name": "Frank Ruhl Libre"
+        }
+      ]
+    }
+  }
+}

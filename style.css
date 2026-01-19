@@ -1,0 +1,34 @@
+/*
+Theme Name: Medical Academic Theme
+Theme URI: https://github.com/LightSpeedWP/ma-theme
+Author: LightSpeedWP
+Author URI: https://lightspeedwp.agency
+Description: A block theme for Medical Academic and their 4 Brands
+Version: 1.0.0
+Requires at least: 6.5
+Tested up to: 6.7
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ma-theme
+Tags: block-theme, full-site-editing, medical, academic, publishing
+Network: false
+
+Medical Academic Theme WordPress Theme, Copyright (C) 2025 LightSpeedWP
+Medical Academic Theme is distributed under the terms of the GPL-2.0-or-later
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+*/
+
+/*
+ * Font smoothing.
+ * This is a noop, but it's needed to make the theme pass the theme review.
+ */

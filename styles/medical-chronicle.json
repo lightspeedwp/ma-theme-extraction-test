@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+  "version": 3,
+  "title": "Medical Chronicle",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "cta-light",
+          "color": "#FDEDF0",
+          "name": "CTA Light"
+        },
+        {
+          "slug": "cta-core",
+          "color": "#EF1974",
+          "name": "CTA Core"
+        },
+        {
+          "slug": "cta-dark",
+          "color": "#BB0253",
+          "name": "CTA Dark"
+        },
+        {
+          "slug": "brand-light",
+          "color": "#EAF2F5",
+          "name": "Brand Light"
+        },
+        {
+          "slug": "brand-core",
+          "color": "#087FA4",
+          "name": "Brand Core"
+        },
+        {
+          "slug": "brand-dark",
+          "color": "#0B6684",
+          "name": "Brand Dark"
+        },
+        {
+          "slug": "accent-light",
+          "color": "#E4F4F4",
+          "name": "Accent Light"
+        },
+        {
+          "slug": "accent-core",
+          "color": "#12A9AC",
+          "name": "Accent Core"
+        },
+        {
+          "slug": "accent-dark",
+          "color": "#058486",
+          "name": "Accent Dark"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Montserrat, sans-serif",
+          "slug": "heading",
+          "name": "Montserrat"
+        },
+        {
+          "fontFamily": "\"Nunito Sans\", sans-serif",
+          "slug": "body",
+          "name": "Nunito Sans"
+        }
+      ]
+    }
+  }
+}

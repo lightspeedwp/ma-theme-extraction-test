@@ -1,0 +1,102 @@
+# Block Theme Scaffold .gitignore
+# Node & PHP dependencies
+node_modules/
+vendor/
+
+# Build output
+public/
+build/
+dist/
+
+# Translation files (keep .pot, ignore compiled)
+languages/*.mo
+!languages/.gitkeep
+
+# Cache and temp files
+.cache/
+.tmp/
+*.log
+*.lock
+*.tmp
+*.temp
+
+# Runtime generated files - NEVER commit
+logs/
+tmp/
+
+# User theme configs (but keep template)
+theme-config.json
+*-config.json
+!theme-config.template.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+Desktop.ini
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test & coverage output
+coverage/
+artifacts/
+test-results/
+playwright-report/
+
+# Performance monitoring
+lighthouse-reports/
+webpack-stats.json
+stats.json
+bundle-report.html
+
+# WordPress specific
+wp-config.php
+.htaccess
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-*/
+
+# Backup/archive files
+*.bak
+*.backup
+*.old
+*.orig
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.rar
+
+# Package manager files
+package-lock.json
+composer.lock
+yarn.lock
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+.prettiercache
+.eslintcache
+.stylelintcache
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+.phpstorm.meta.php
+.phpunit.cache

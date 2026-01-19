@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "CPD Card",
+  "blockTypes": [
+    "core/group"
+  ],
+  "styles": {
+    "border": {
+      "radius": "var(--wp--preset--radius--medium)"
+    },
+    "shadow": "var(--wp--preset--shadow--elevation-1)",
+    "spacing": {
+        "blockGap": "0"
+    }
+  }
+}
